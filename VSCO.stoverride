@@ -5,7 +5,7 @@ http:
   mitm:
     - "vsco.co, api.revenuecat.com"
   script:
-    - match: ^https:\/\/(api\.revenuecat\.com\/v\d\/subscribers|vsco\.co\/api\/subscriptions\/\d\.\d\/user-subscriptions)\/
+    - match: ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/
       name: VSCO活跃会员
       type: response
       require-body: true
