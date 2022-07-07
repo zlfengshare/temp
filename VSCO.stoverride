@@ -3,7 +3,7 @@ desc: 解锁会员
 
 http:
   mitm:
-    - "vsco.co, api.revenuecat.com"
+    - "api.revenuecat.com"
   script:
     - match: ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/
       name: VSCO活跃会员
