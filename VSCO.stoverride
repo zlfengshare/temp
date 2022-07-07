@@ -1,5 +1,5 @@
-name: VSCO活跃会员
-desc: 解锁会员
+name: VSCO活跃会员-测试
+desc: 解锁会员-测试
 
 http:
   mitm:
