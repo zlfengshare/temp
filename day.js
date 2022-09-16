@@ -49,22 +49,22 @@ obj={
             },
             {
                 "name": "discountedSubscription",
-                "enabled": true,
+                "enabled": false,
                 "canUpgrade": false
             },
             {
                 "name": "printingDiscount",
-                "enabled": true,
+                "enabled": false,
                 "canUpgrade": true
             },
             {
                 "name": "prioritySupport",
-                "enabled": true,
+                "enabled": false,
                 "canUpgrade": true
             },
             {
                 "name": "scanToPDF",
-                "enabled": true,
+                "enabled": false,
                 "canUpgrade": true
             },
             {
@@ -74,7 +74,7 @@ obj={
             },
             {
                 "name": "journalViaSMS",
-                "enabled": true,
+                "enabled": false,
                 "canUpgrade": true
             },
             {
@@ -84,57 +84,57 @@ obj={
             },
             {
                 "name": "canAttachVideo",
-                "enabled": true,
+                "enabled": false,
                 "canUpgrade": true
             },
             {
                 "name": "canAttachAudio",
-                "enabled": true,
+                "enabled": false,
                 "canUpgrade": true
             },
             {
                 "name": "canAttachDrawing",
-                "enabled": true,
+                "enabled": false,
                 "canUpgrade": true
             },
             {
                 "name": "canAttachPDF",
-                "enabled": true,
+                "enabled": false,
                 "canUpgrade": true
             },
             {
                 "name": "instagram",
-                "enabled": true,
+                "enabled": false,
                 "canUpgrade": true
             },
             {
                 "name": "ifttt",
-                "enabled": true,
+                "enabled": false,
                 "canUpgrade": true
             },
             {
                 "name": "colors",
-                "enabled": true,
+                "enabled": false,
                 "canUpgrade": true
             },
             {
                 "name": "emailToJournal",
-                "enabled": true,
+                "enabled": false,
                 "canUpgrade": true
             },
             {
                 "name": "appIcons",
-                "enabled": true,
+                "enabled": false,
                 "canUpgrade": true
             },
             {
                 "name": "moonPhase",
-                "enabled": true,
+                "enabled": false,
                 "canUpgrade": true
             },
             {
                 "name": "foursquareNearbyVenues",
-                "enabled": true,
+                "enabled": false,
                 "canUpgrade": true
             }
         ]
