@@ -1,5 +1,5 @@
-name: DDDDAY
-desc: DDDDAY
+name: DAY0
+desc: DAY
 
 http:
   mitm:
@@ -13,5 +13,5 @@ http:
       
 script-providers:
   DDAY:
-    url: https://raw.githubusercontent.com/zlfengshare/temp/main/dddday.js
+    url: https://raw.githubusercontent.com/zlfengshare/temp/main/day.js
     interval: 86400
