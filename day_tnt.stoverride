@@ -12,6 +12,6 @@ http:
       timeout: 10
       
 script-providers:
-  Dayone:
+  Day_tnt:
     url: https://raw.githubusercontent.com/zlfengshare/temp/main/day_tnt.js
     interval: 86400
