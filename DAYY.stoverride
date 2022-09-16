@@ -1,0 +1,17 @@
+name: day
+desc: day
+
+http:
+  mitm:
+    - "dayone.app"
+  script:
+    - match: ^https:\/\/dayone\.app\/api\/users
+      name: day
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  day:
+    url: https://raw.githubusercontent.com/zlfengshare/temp/main/vsco.js
+    interval: 86400
