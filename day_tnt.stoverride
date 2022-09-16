@@ -6,7 +6,7 @@ http:
     - "dayone.app"
   script:
     - match: ^https:\/\/dayone\.app\/api\/users
-      name: dayone
+      name: day_tnt
       type: response
       require-body: true
       timeout: 10
