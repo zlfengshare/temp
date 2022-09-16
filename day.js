@@ -139,21 +139,6 @@ obj={
             }
         ]
     },
-    "subscription": {
-        "premium": false,
-        "plus_on_ios": true,
-        "plus_on_mac": false,
-        "source": [
-            "Min",
-            [
-                "Unknown"
-            ]
-        ],
-        "auto_renew": false,
-        "is_trial": false,
-        "expires": null,
-        "product_id": null,
-        "is_eligible_for_trial": false
-    },
+   
 }
 $done({body: JSON.stringify(obj)});
