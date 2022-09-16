@@ -85,62 +85,62 @@ obj={
             {
                 "name": "canAttachVideo",
                 "enabled": true,
-                "canUpgrade": true
+                "canUpgrade": false
             },
             {
                 "name": "canAttachAudio",
                 "enabled": true,
-                "canUpgrade": true
+                "canUpgrade": false
             },
             {
                 "name": "canAttachDrawing",
                 "enabled": true,
-                "canUpgrade": true
+                "canUpgrade": false
             },
             {
                 "name": "canAttachPDF",
                 "enabled": true,
-                "canUpgrade": true
+                "canUpgrade": false
             },
             {
                 "name": "instagram",
                 "enabled": true,
-                "canUpgrade": true
+                "canUpgrade": false
             },
             {
                 "name": "ifttt",
                 "enabled": true,
-                "canUpgrade": true
+                "canUpgrade": false
             },
             {
                 "name": "colors",
                 "enabled": true,
-                "canUpgrade": true
+                "canUpgrade": false
             },
             {
                 "name": "emailToJournal",
                 "enabled": true,
-                "canUpgrade": true
+                "canUpgrade": false
             },
             {
                 "name": "appIcons",
                 "enabled": true,
-                "canUpgrade": true
+                "canUpgrade": false
             },
             {
                 "name": "moonPhase",
                 "enabled": true,
-                "canUpgrade": true
+                "canUpgrade": false
             },
             {
                 "name": "foursquareNearbyVenues",
                 "enabled": true,
-                "canUpgrade": true
+                "canUpgrade": false
             }
         ]
     },
     "subscription": {
-        "premium": false,
+        "premium": true,
         "plus_on_ios": true,
         "plus_on_mac": false,
         "source": [
