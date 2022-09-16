@@ -1,5 +1,5 @@
-name: DDAY
-desc: DDAY
+name: DDDAY
+desc: DDDAY
 
 http:
   mitm:
