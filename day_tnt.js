@@ -1,165 +1,159 @@
 /*
-dayone日记高级版
-^https:\/\/dayone\.app\/api\/v2\/users url script-response-body https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/dayone.js
-本地：
-^https:\/\/dayone\.app\/api\/v2\/users url script-response-body dayone_tnt.js
-
-hostname：dayone.app
-
+测试
 */
 
-const path1 = "/account-status";
-const path2 = "/receipt";
 
 let obj = JSON.parse($response.body);
 
-if ($request.url.indexOf(path1) != -1){
-obj = {
-  "expirationDate": 1866888955000,
-  "startDate": 1582805832000,
-  "subscriptionPlan": "com.bloombuilt.dayoneios.subscription.premium.yearly_discounted_trial",
-  "lastRenewalDate": 1582805831000,
-  "subscriptionName": "premium",
-  "bundleReason": "purchase",
-  "cancellationDate": 0
-    }
-}
-if ($request.url.indexOf(path2) != -1){
 obj={
-  "bundle": {
-    "bundleName": "premium",
-    "features": [{
-      "name": "imagesPerEntry",
-      "limit": 30,
-      "canUpgrade": false
-    }, {
-      "name": "journalLimit",
-      "limit": 100,
-      "canUpgrade": false
-    }, {
-      "name": "audioPerEntry",
-      "limit": 10,
-      "canUpgrade": false
-    }, {
-      "name": "sync",
-      "limit": null,
-      "canUpgrade": false
-    }, {
-      "name": "backup",
-      "limit": null,
-      "canUpgrade": false
-    }, {
-      "name": "printingDiscount",
-      "limit": null,
-      "canUpgrade": false
-    }, {
-      "name": "prioritySupport",
-      "limit": null,
-      "canUpgrade": false
-    }, {
-      "name": "drawingsPerEntry",
-      "limit": 30,
-      "canUpgrade": false
-    }, {
-      "name": "scanToPDF",
-      "limit": 30,
-      "canUpgrade": false
-    }, {
-      "name": "videosPerEntry",
-      "limit": 30,
-      "canUpgrade": false
-    }, {
-      "name": "journalViaSMS",
-      "limit": null,
-      "canUpgrade": false
-    }],
-    "featuresFull": [{
-      "name": "journalLimit",
-      "limit": 100,
-      "canUpgrade": false
-    }, {
-      "name": "backup",
-      "enabled": true,
-      "canUpgrade": false
-    }, {
-      "name": "sync",
-      "enabled": true,
-      "canUpgrade": false
-    }, {
-      "name": "discountedSubscription",
-      "enabled": false,
-      "canUpgrade": false
-    }, {
-      "name": "printingDiscount",
-      "enabled": true,
-      "canUpgrade": false
-    }, {
-      "name": "prioritySupport",
-      "enabled": true,
-      "canUpgrade": false
-    }, {
-      "name": "scanToPDF",
-      "enabled": true,
-      "canUpgrade": false
-    }, {
-      "name": "attachmentsPerEntry",
-      "limit": 30,
-      "canUpgrade": false
-    }, {
-      "name": "journalViaSMS",
-      "enabled": true,
-      "canUpgrade": false
-    }, {
-      "name": "canAttachPhoto",
-      "enabled": true,
-      "canUpgrade": false
-    }, {
-      "name": "canAttachVideo",
-      "enabled": true,
-      "canUpgrade": false
-    }, {
-      "name": "canAttachAudio",
-      "enabled": true,
-      "canUpgrade": false
-    }, {
-      "name": "canAttachDrawing",
-      "enabled": true,
-      "canUpgrade": false
-    }, {
-      "name": "canAttachPDF",
-      "enabled": true,
-      "canUpgrade": false
-    }, {
-      "name": "instagram",
-      "enabled": true,
-      "canUpgrade": false
-    }, {
-      "name": "ifttt",
-      "enabled": true,
-      "canUpgrade": false
-    }, {
-      "name": "colors",
-      "enabled": true,
-      "canUpgrade": false
-    }, {
-      "name": "emailToJournal",
-      "enabled": true,
-      "canUpgrade": false
-    }, {
-      "name": "appIcons",
-      "enabled": true,
-      "canUpgrade": false
-    }, {
-      "name": "moonPhase",
-      "enabled": true,
-      "canUpgrade": false
-    }, {
-      "name": "foursquareNearbyVenues",
-      "enabled": true,
-      "canUpgrade": false
-    }]
-  },
-  "reason": "purchase"
-}
+  "featureBundle": {
+        "bundleName": "free",
+        "reason": "unknown",
+        "features": [
+            {
+                "name": "imagesPerEntry",
+                "limit": 30,
+                "canUpgrade": true
+            },
+            {
+                "name": "journalLimit",
+                "limit": 30,
+                "canUpgrade": true
+            },
+            {
+                "name": "backup",
+                "limit": null,
+                "canUpgrade": false
+            },
+            {
+                "name": "sync",
+                "limit": null,
+                "canUpgrade": false
+            }
+        ],
+        "featuresFull": [
+            {
+                "name": "journalLimit",
+                "limit": 30,
+                "canUpgrade": true
+            },
+            {
+                "name": "backup",
+                "enabled": true,
+                "canUpgrade": false
+            },
+            {
+                "name": "sync",
+                "enabled": true,
+                "canUpgrade": true
+            },
+            {
+                "name": "discountedSubscription",
+                "enabled": true,
+                "canUpgrade": false
+            },
+            {
+                "name": "printingDiscount",
+                "enabled": true,
+                "canUpgrade": true
+            },
+            {
+                "name": "prioritySupport",
+                "enabled": true,
+                "canUpgrade": true
+            },
+            {
+                "name": "scanToPDF",
+                "enabled": true,
+                "canUpgrade": true
+            },
+            {
+                "name": "attachmentsPerEntry",
+                "limit": 30,
+                "canUpgrade": false
+            },
+            {
+                "name": "journalViaSMS",
+                "enabled": true,
+                "canUpgrade": true
+            },
+            {
+                "name": "canAttachPhoto",
+                "enabled": true,
+                "canUpgrade": false
+            },
+            {
+                "name": "canAttachVideo",
+                "enabled": true,
+                "canUpgrade": true
+            },
+            {
+                "name": "canAttachAudio",
+                "enabled": true,
+                "canUpgrade": true
+            },
+            {
+                "name": "canAttachDrawing",
+                "enabled": true,
+                "canUpgrade": true
+            },
+            {
+                "name": "canAttachPDF",
+                "enabled": true,
+                "canUpgrade": true
+            },
+            {
+                "name": "instagram",
+                "enabled": true,
+                "canUpgrade": true
+            },
+            {
+                "name": "ifttt",
+                "enabled": true,
+                "canUpgrade": true
+            },
+            {
+                "name": "colors",
+                "enabled": true,
+                "canUpgrade": true
+            },
+            {
+                "name": "emailToJournal",
+                "enabled": true,
+                "canUpgrade": true
+            },
+            {
+                "name": "appIcons",
+                "enabled": true,
+                "canUpgrade": true
+            },
+            {
+                "name": "moonPhase",
+                "enabled": true,
+                "canUpgrade": true
+            },
+            {
+                "name": "foursquareNearbyVenues",
+                "enabled": true,
+                "canUpgrade": true
+            }
+        ]
+    },
+    "subscription": {
+        "premium": false,
+        "plus_on_ios": true,
+        "plus_on_mac": false,
+        "source": [
+            "Min",
+            [
+                "Unknown"
+            ]
+        ],
+        "auto_renew": false,
+        "is_trial": false,
+        "expires": null,
+        "product_id": null,
+        "is_eligible_for_trial": false
+    },
 }
 $done({body: JSON.stringify(obj)});
