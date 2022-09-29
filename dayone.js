@@ -1,4 +1,4 @@
-\************
+/************
 
 var body = $response.body
 
@@ -7,7 +7,8 @@ var body = $response.body
       
 $done({ body });
 
-*****************\
+*****************/
+
 let obj = JSON.parse($response.body);
 
 	obj = {
