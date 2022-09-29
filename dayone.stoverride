@@ -1,17 +1,17 @@
-name: DAY
-desc: DAY
+name: dayone
+desc: dayone
 
 http:
   mitm:
     - "dayone.app"
   script:
     - match: ^https:\/\/dayone\.app\/api\/users
-      name: DDAY
+      name: dayone
       type: response
       require-body: true
       timeout: 10
       
 script-providers:
-  DDAY:
+  dayone:
     url: https://raw.githubusercontent.com/zlfengshare/temp/main/dayone.js
     interval: 86400
