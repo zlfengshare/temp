@@ -1,4 +1,4 @@
-name: DAY0
+name: DAY
 desc: DAY
 
 http:
@@ -13,5 +13,5 @@ http:
       
 script-providers:
   DDAY:
-    url: https://raw.githubusercontent.com/zlfengshare/temp/main/day0.js
+    url: https://raw.githubusercontent.com/zlfengshare/temp/main/day.js
     interval: 86400
