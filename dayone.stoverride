@@ -13,5 +13,5 @@ http:
       
 script-providers:
   DDAY:
-    url: https://raw.githubusercontent.com/zlfengshare/temp/main/day.js
+    url: https://raw.githubusercontent.com/zlfengshare/temp/main/dayone.js
     interval: 86400
